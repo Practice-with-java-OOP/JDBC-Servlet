@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ProductServiceiplm implements ProductService {
     static final String JDBC_Driver = "com.mysql.jdbc.Driver";
-    static final String url = "jdbc:mysql://localhost:3306/productmanager";
+    static final String url = "jdbc:mysql://localhost:3306/productmanager?useSSL=false";
 
     static final String user = "root";
     static final String password = "phantiensy";
