@@ -17,6 +17,12 @@
 <body>
 <div class="container">
     <div class="row">
+        <div class="col-10"></div>
+        <div class="col-2" style="padding-top: 20px">
+            <a href="/logout?islogout=ok"><button type="button" class="btn btn-warning">logout</button></a>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
             <h1 style="text-align: center">Show product list</h1>
