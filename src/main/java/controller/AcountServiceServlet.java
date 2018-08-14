@@ -93,6 +93,7 @@ public class AcountServiceServlet extends HttpServlet {
                 response.addCookie(pass);
 
                 session.setAttribute("userName", userName);
+                session.setAttribute("password", password);
                 response.sendRedirect("/products");
             }
         } catch (ClassNotFoundException e) {

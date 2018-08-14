@@ -13,7 +13,7 @@ public class LogoutServlet extends HttpServlet {
         if (request.getParameter("islogout") != null) {
             if (request.getParameter("islogout").equals("ok")) {
                 request.removeAttribute("userName");
-                response.sendRedirect("/account/login.jsp");
+                response.sendRedirect("/displays?action=login");
             }
         }
     }
