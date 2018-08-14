@@ -27,11 +27,11 @@
         <table>
             <tr>
                 <td>User:</td>
-                <td><input type="text" name="user" id="user"></td>
+                <td><input type="text" name="user" id="user" value="<%=session.getAttribute("userName")%>"></td>
             </tr>
             <tr>
                 <td>Password:</td>
-                <td><input type="password" name="password" id="password"></td>
+                <td><input type="password" name="password" id="password" value="<%=session.getAttribute("password")%>"></td>
             </tr>
             <tr>
                 <td><input type="checkbox" name="checkbox" id="checkbox">RememberMe</td>
